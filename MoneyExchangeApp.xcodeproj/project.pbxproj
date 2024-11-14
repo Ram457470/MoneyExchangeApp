@@ -1,0 +1,898 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0125CBC3D7107A6ACC52FDA3 /* Pods_MoneyExchangeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B623ED4A8D08E9B8A28A857 /* Pods_MoneyExchangeApp.framework */; };
+		97037970C458D946F4047C23 /* Pods_MoneyExchangeApp_MoneyExchangeAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882DEC8B9CECF1C0B970FB92 /* Pods_MoneyExchangeApp_MoneyExchangeAppUITests.framework */; };
+		D705A26C2CDF93CA00A88966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705A26B2CDF93CA00A88966 /* AppDelegate.swift */; };
+		D705A26E2CDF93CA00A88966 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705A26D2CDF93CA00A88966 /* SceneDelegate.swift */; };
+		D705A2702CDF93CA00A88966 /* MoneyTransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705A26F2CDF93CA00A88966 /* MoneyTransferViewController.swift */; };
+		D705A2732CDF93CA00A88966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D705A2712CDF93CA00A88966 /* Main.storyboard */; };
+		D705A2762CDF93CA00A88966 /* MoneyExchangeApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D705A2742CDF93CA00A88966 /* MoneyExchangeApp.xcdatamodeld */; };
+		D705A2782CDF93CC00A88966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D705A2772CDF93CC00A88966 /* Assets.xcassets */; };
+		D705A27B2CDF93CC00A88966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D705A2792CDF93CC00A88966 /* LaunchScreen.storyboard */; };
+		D705A2862CDF93CC00A88966 /* MoneyExchangeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705A2852CDF93CC00A88966 /* MoneyExchangeAppTests.swift */; };
+		D705A2902CDF93CC00A88966 /* MoneyExchangeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705A28F2CDF93CC00A88966 /* MoneyExchangeAppUITests.swift */; };
+		D705A2922CDF93CC00A88966 /* MoneyExchangeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D705A2912CDF93CC00A88966 /* MoneyExchangeAppUITestsLaunchTests.swift */; };
+		D70F79BA2CDFB9FC00A5AC87 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70F79B92CDFB9FC00A5AC87 /* CountryModel.swift */; };
+		D77704C42CE05328007CCDB3 /* SelectDeliveryMethodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77704C32CE05328007CCDB3 /* SelectDeliveryMethodVC.swift */; };
+		D77F347F2CE276300027D99C /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77F347E2CE276300027D99C /* UIImageView.swift */; };
+		D782DC0A2CE089AC004C6A03 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782DC092CE089AC004C6A03 /* HomeViewController.swift */; };
+		D782DC0C2CE0F759004C6A03 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782DC0B2CE0F759004C6A03 /* ErrorMessage.swift */; };
+		D782DC112CE11402004C6A03 /* APIManagerProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782DC102CE11402004C6A03 /* APIManagerProtocal.swift */; };
+		D782DC132CE1194B004C6A03 /* EnumManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782DC122CE1194B004C6A03 /* EnumManager.swift */; };
+		D782DC152CE11EA4004C6A03 /* CountryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782DC142CE11EA4004C6A03 /* CountryListViewModel.swift */; };
+		D78FC2532CE05CA100700CB8 /* SelectBankNamesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78FC2512CE05CA100700CB8 /* SelectBankNamesTableViewCell.swift */; };
+		D78FC2542CE05CA100700CB8 /* SelectBankNamesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D78FC2522CE05CA100700CB8 /* SelectBankNamesTableViewCell.xib */; };
+		D7AF43F62CE392BA00981CBE /* MoneyExchangeAppTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AF43F52CE392BA00981CBE /* MoneyExchangeAppTestCase.swift */; };
+		D7B525712CE45A02008DD8EE /* SecurityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B525702CE45A02008DD8EE /* SecurityManager.swift */; };
+		D7C2AD1D2CDFD5AD00C4144A /* CountryListBottomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C2AD1C2CDFD5AD00C4144A /* CountryListBottomVC.swift */; };
+		D7C2AD202CDFD62D00C4144A /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C2AD1E2CDFD62D00C4144A /* CountryTableViewCell.swift */; };
+		D7C2AD212CDFD62D00C4144A /* CountryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7C2AD1F2CDFD62D00C4144A /* CountryTableViewCell.xib */; };
+		D7C409692CDFD95B0005DB92 /* CountryListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C409672CDFD95B0005DB92 /* CountryListCollectionViewCell.swift */; };
+		D7C4096A2CDFD95B0005DB92 /* CountryListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7C409682CDFD95B0005DB92 /* CountryListCollectionViewCell.xib */; };
+		D7C4096D2CDFE04E0005DB92 /* AllCountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C4096B2CDFE04E0005DB92 /* AllCountryTableViewCell.swift */; };
+		D7C4096E2CDFE04E0005DB92 /* AllCountryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7C4096C2CDFE04E0005DB92 /* AllCountryTableViewCell.xib */; };
+		FA6CF16F6CC2B0E693362FB2 /* Pods_MoneyExchangeAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EB6ED714770DCB9FEB96199 /* Pods_MoneyExchangeAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D705A2822CDF93CC00A88966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D705A2602CDF93CA00A88966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D705A2672CDF93CA00A88966;
+			remoteInfo = MoneyExchangeApp;
+		};
+		D705A28C2CDF93CC00A88966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D705A2602CDF93CA00A88966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D705A2672CDF93CA00A88966;
+			remoteInfo = MoneyExchangeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C476ABE6F76A90A9599950D /* Pods-MoneyExchangeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyExchangeAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MoneyExchangeAppTests/Pods-MoneyExchangeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3EB6ED714770DCB9FEB96199 /* Pods_MoneyExchangeAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyExchangeAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52073C8E8647C0BFF676EFE1 /* Pods-MoneyExchangeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyExchangeAppTests.release.xcconfig"; path = "Target Support Files/Pods-MoneyExchangeAppTests/Pods-MoneyExchangeAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B623ED4A8D08E9B8A28A857 /* Pods_MoneyExchangeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyExchangeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		714E6B4FBAF6B6D903D260D7 /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyExchangeApp-MoneyExchangeAppUITests.release.xcconfig"; path = "Target Support Files/Pods-MoneyExchangeApp-MoneyExchangeAppUITests/Pods-MoneyExchangeApp-MoneyExchangeAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		882DEC8B9CECF1C0B970FB92 /* Pods_MoneyExchangeApp_MoneyExchangeAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyExchangeApp_MoneyExchangeAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0F0DCE61D07A5503D04BBF /* Pods-MoneyExchangeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyExchangeApp.release.xcconfig"; path = "Target Support Files/Pods-MoneyExchangeApp/Pods-MoneyExchangeApp.release.xcconfig"; sourceTree = "<group>"; };
+		B3D97E4864E0657E31A48496 /* Pods-MoneyExchangeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyExchangeApp.debug.xcconfig"; path = "Target Support Files/Pods-MoneyExchangeApp/Pods-MoneyExchangeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D705A2682CDF93CA00A88966 /* MoneyExchangeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyExchangeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D705A26B2CDF93CA00A88966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D705A26D2CDF93CA00A88966 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D705A26F2CDF93CA00A88966 /* MoneyTransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTransferViewController.swift; sourceTree = "<group>"; };
+		D705A2722CDF93CA00A88966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D705A2752CDF93CA00A88966 /* MoneyExchangeApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoneyExchangeApp.xcdatamodel; sourceTree = "<group>"; };
+		D705A2772CDF93CC00A88966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D705A27A2CDF93CC00A88966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D705A27C2CDF93CC00A88966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D705A2812CDF93CC00A88966 /* MoneyExchangeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyExchangeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D705A2852CDF93CC00A88966 /* MoneyExchangeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyExchangeAppTests.swift; sourceTree = "<group>"; };
+		D705A28B2CDF93CC00A88966 /* MoneyExchangeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyExchangeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D705A28F2CDF93CC00A88966 /* MoneyExchangeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyExchangeAppUITests.swift; sourceTree = "<group>"; };
+		D705A2912CDF93CC00A88966 /* MoneyExchangeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyExchangeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D70F79B92CDFB9FC00A5AC87 /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		D77704C32CE05328007CCDB3 /* SelectDeliveryMethodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDeliveryMethodVC.swift; sourceTree = "<group>"; };
+		D77F347E2CE276300027D99C /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		D782DC092CE089AC004C6A03 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D782DC0B2CE0F759004C6A03 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		D782DC102CE11402004C6A03 /* APIManagerProtocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManagerProtocal.swift; sourceTree = "<group>"; };
+		D782DC122CE1194B004C6A03 /* EnumManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumManager.swift; sourceTree = "<group>"; };
+		D782DC142CE11EA4004C6A03 /* CountryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewModel.swift; sourceTree = "<group>"; };
+		D78FC2512CE05CA100700CB8 /* SelectBankNamesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectBankNamesTableViewCell.swift; sourceTree = "<group>"; };
+		D78FC2522CE05CA100700CB8 /* SelectBankNamesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectBankNamesTableViewCell.xib; sourceTree = "<group>"; };
+		D7AF43F52CE392BA00981CBE /* MoneyExchangeAppTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneyExchangeAppTestCase.swift; sourceTree = "<group>"; };
+		D7B525702CE45A02008DD8EE /* SecurityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityManager.swift; sourceTree = "<group>"; };
+		D7C2AD1C2CDFD5AD00C4144A /* CountryListBottomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListBottomVC.swift; sourceTree = "<group>"; };
+		D7C2AD1E2CDFD62D00C4144A /* CountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
+		D7C2AD1F2CDFD62D00C4144A /* CountryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryTableViewCell.xib; sourceTree = "<group>"; };
+		D7C409672CDFD95B0005DB92 /* CountryListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListCollectionViewCell.swift; sourceTree = "<group>"; };
+		D7C409682CDFD95B0005DB92 /* CountryListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryListCollectionViewCell.xib; sourceTree = "<group>"; };
+		D7C4096B2CDFE04E0005DB92 /* AllCountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCountryTableViewCell.swift; sourceTree = "<group>"; };
+		D7C4096C2CDFE04E0005DB92 /* AllCountryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllCountryTableViewCell.xib; sourceTree = "<group>"; };
+		F3D4AC2781A257B90F516047 /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyExchangeApp-MoneyExchangeAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-MoneyExchangeApp-MoneyExchangeAppUITests/Pods-MoneyExchangeApp-MoneyExchangeAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D705A2652CDF93CA00A88966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0125CBC3D7107A6ACC52FDA3 /* Pods_MoneyExchangeApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D705A27E2CDF93CC00A88966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6CF16F6CC2B0E693362FB2 /* Pods_MoneyExchangeAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D705A2882CDF93CC00A88966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97037970C458D946F4047C23 /* Pods_MoneyExchangeApp_MoneyExchangeAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E00990CA49FA4E65DA3D3EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B623ED4A8D08E9B8A28A857 /* Pods_MoneyExchangeApp.framework */,
+				882DEC8B9CECF1C0B970FB92 /* Pods_MoneyExchangeApp_MoneyExchangeAppUITests.framework */,
+				3EB6ED714770DCB9FEB96199 /* Pods_MoneyExchangeAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C48F463B5E6403DBEB7D3AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3D97E4864E0657E31A48496 /* Pods-MoneyExchangeApp.debug.xcconfig */,
+				8F0F0DCE61D07A5503D04BBF /* Pods-MoneyExchangeApp.release.xcconfig */,
+				F3D4AC2781A257B90F516047 /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests.debug.xcconfig */,
+				714E6B4FBAF6B6D903D260D7 /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests.release.xcconfig */,
+				3C476ABE6F76A90A9599950D /* Pods-MoneyExchangeAppTests.debug.xcconfig */,
+				52073C8E8647C0BFF676EFE1 /* Pods-MoneyExchangeAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D705A25F2CDF93CA00A88966 = {
+			isa = PBXGroup;
+			children = (
+				D705A26A2CDF93CA00A88966 /* MoneyExchangeApp */,
+				D705A2842CDF93CC00A88966 /* MoneyExchangeAppTests */,
+				D705A28E2CDF93CC00A88966 /* MoneyExchangeAppUITests */,
+				D705A2692CDF93CA00A88966 /* Products */,
+				9C48F463B5E6403DBEB7D3AF /* Pods */,
+				6E00990CA49FA4E65DA3D3EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D705A2692CDF93CA00A88966 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D705A2682CDF93CA00A88966 /* MoneyExchangeApp.app */,
+				D705A2812CDF93CC00A88966 /* MoneyExchangeAppTests.xctest */,
+				D705A28B2CDF93CC00A88966 /* MoneyExchangeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D705A26A2CDF93CA00A88966 /* MoneyExchangeApp */ = {
+			isa = PBXGroup;
+			children = (
+				D782DC0F2CE113B4004C6A03 /* APIManager */,
+				D705A29E2CDF93DE00A88966 /* Utilities */,
+				D705A2A22CDF940E00A88966 /* Extension */,
+				D705A2A02CDF93F300A88966 /* Support */,
+				D705A2A62CDF950000A88966 /* CustomView */,
+				D705A2A12CDF93FD00A88966 /* Screens */,
+				D705A2772CDF93CC00A88966 /* Assets.xcassets */,
+				D705A27C2CDF93CC00A88966 /* Info.plist */,
+				D705A2742CDF93CA00A88966 /* MoneyExchangeApp.xcdatamodeld */,
+			);
+			path = MoneyExchangeApp;
+			sourceTree = "<group>";
+		};
+		D705A2842CDF93CC00A88966 /* MoneyExchangeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D705A2852CDF93CC00A88966 /* MoneyExchangeAppTests.swift */,
+				D7AF43F52CE392BA00981CBE /* MoneyExchangeAppTestCase.swift */,
+			);
+			path = MoneyExchangeAppTests;
+			sourceTree = "<group>";
+		};
+		D705A28E2CDF93CC00A88966 /* MoneyExchangeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D705A28F2CDF93CC00A88966 /* MoneyExchangeAppUITests.swift */,
+				D705A2912CDF93CC00A88966 /* MoneyExchangeAppUITestsLaunchTests.swift */,
+			);
+			path = MoneyExchangeAppUITests;
+			sourceTree = "<group>";
+		};
+		D705A29E2CDF93DE00A88966 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D782DC0B2CE0F759004C6A03 /* ErrorMessage.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D705A2A02CDF93F300A88966 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				D705A2712CDF93CA00A88966 /* Main.storyboard */,
+				D705A26B2CDF93CA00A88966 /* AppDelegate.swift */,
+				D705A26D2CDF93CA00A88966 /* SceneDelegate.swift */,
+				D705A2792CDF93CC00A88966 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		D705A2A12CDF93FD00A88966 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				D705A2A32CDF945500A88966 /* View */,
+				D705A2A42CDF945D00A88966 /* ViewModel */,
+				D705A2A52CDF946500A88966 /* Model */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		D705A2A22CDF940E00A88966 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D77F347E2CE276300027D99C /* UIImageView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D705A2A32CDF945500A88966 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D705A26F2CDF93CA00A88966 /* MoneyTransferViewController.swift */,
+				D7C2AD1C2CDFD5AD00C4144A /* CountryListBottomVC.swift */,
+				D77704C32CE05328007CCDB3 /* SelectDeliveryMethodVC.swift */,
+				D782DC092CE089AC004C6A03 /* HomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D705A2A42CDF945D00A88966 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D782DC142CE11EA4004C6A03 /* CountryListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D705A2A52CDF946500A88966 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D70F79B92CDFB9FC00A5AC87 /* CountryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D705A2A62CDF950000A88966 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				D705A2A72CDF950A00A88966 /* Cell */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		D705A2A72CDF950A00A88966 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D7C2AD1E2CDFD62D00C4144A /* CountryTableViewCell.swift */,
+				D7C2AD1F2CDFD62D00C4144A /* CountryTableViewCell.xib */,
+				D7C409672CDFD95B0005DB92 /* CountryListCollectionViewCell.swift */,
+				D7C409682CDFD95B0005DB92 /* CountryListCollectionViewCell.xib */,
+				D7C4096B2CDFE04E0005DB92 /* AllCountryTableViewCell.swift */,
+				D7C4096C2CDFE04E0005DB92 /* AllCountryTableViewCell.xib */,
+				D78FC2512CE05CA100700CB8 /* SelectBankNamesTableViewCell.swift */,
+				D78FC2522CE05CA100700CB8 /* SelectBankNamesTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D782DC0F2CE113B4004C6A03 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				D782DC102CE11402004C6A03 /* APIManagerProtocal.swift */,
+				D782DC122CE1194B004C6A03 /* EnumManager.swift */,
+				D7B525702CE45A02008DD8EE /* SecurityManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D705A2672CDF93CA00A88966 /* MoneyExchangeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D705A2952CDF93CC00A88966 /* Build configuration list for PBXNativeTarget "MoneyExchangeApp" */;
+			buildPhases = (
+				01AF71325C33BB8A72C86DD9 /* [CP] Check Pods Manifest.lock */,
+				D705A2642CDF93CA00A88966 /* Sources */,
+				D705A2652CDF93CA00A88966 /* Frameworks */,
+				D705A2662CDF93CA00A88966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoneyExchangeApp;
+			productName = MoneyExchangeApp;
+			productReference = D705A2682CDF93CA00A88966 /* MoneyExchangeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D705A2802CDF93CC00A88966 /* MoneyExchangeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D705A2982CDF93CC00A88966 /* Build configuration list for PBXNativeTarget "MoneyExchangeAppTests" */;
+			buildPhases = (
+				CD463A70DA6A3570C1D8F7B3 /* [CP] Check Pods Manifest.lock */,
+				D705A27D2CDF93CC00A88966 /* Sources */,
+				D705A27E2CDF93CC00A88966 /* Frameworks */,
+				D705A27F2CDF93CC00A88966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D705A2832CDF93CC00A88966 /* PBXTargetDependency */,
+			);
+			name = MoneyExchangeAppTests;
+			productName = MoneyExchangeAppTests;
+			productReference = D705A2812CDF93CC00A88966 /* MoneyExchangeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D705A28A2CDF93CC00A88966 /* MoneyExchangeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D705A29B2CDF93CC00A88966 /* Build configuration list for PBXNativeTarget "MoneyExchangeAppUITests" */;
+			buildPhases = (
+				148A69061AE5939F1669D636 /* [CP] Check Pods Manifest.lock */,
+				D705A2872CDF93CC00A88966 /* Sources */,
+				D705A2882CDF93CC00A88966 /* Frameworks */,
+				D705A2892CDF93CC00A88966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D705A28D2CDF93CC00A88966 /* PBXTargetDependency */,
+			);
+			name = MoneyExchangeAppUITests;
+			productName = MoneyExchangeAppUITests;
+			productReference = D705A28B2CDF93CC00A88966 /* MoneyExchangeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D705A2602CDF93CA00A88966 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					D705A2672CDF93CA00A88966 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					D705A2802CDF93CC00A88966 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = D705A2672CDF93CA00A88966;
+					};
+					D705A28A2CDF93CC00A88966 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = D705A2672CDF93CA00A88966;
+					};
+				};
+			};
+			buildConfigurationList = D705A2632CDF93CA00A88966 /* Build configuration list for PBXProject "MoneyExchangeApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D705A25F2CDF93CA00A88966;
+			productRefGroup = D705A2692CDF93CA00A88966 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D705A2672CDF93CA00A88966 /* MoneyExchangeApp */,
+				D705A2802CDF93CC00A88966 /* MoneyExchangeAppTests */,
+				D705A28A2CDF93CC00A88966 /* MoneyExchangeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D705A2662CDF93CA00A88966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C2AD212CDFD62D00C4144A /* CountryTableViewCell.xib in Resources */,
+				D78FC2542CE05CA100700CB8 /* SelectBankNamesTableViewCell.xib in Resources */,
+				D705A27B2CDF93CC00A88966 /* LaunchScreen.storyboard in Resources */,
+				D7C4096E2CDFE04E0005DB92 /* AllCountryTableViewCell.xib in Resources */,
+				D7C4096A2CDFD95B0005DB92 /* CountryListCollectionViewCell.xib in Resources */,
+				D705A2782CDF93CC00A88966 /* Assets.xcassets in Resources */,
+				D705A2732CDF93CA00A88966 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D705A27F2CDF93CC00A88966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D705A2892CDF93CC00A88966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01AF71325C33BB8A72C86DD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoneyExchangeApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		148A69061AE5939F1669D636 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoneyExchangeApp-MoneyExchangeAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD463A70DA6A3570C1D8F7B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoneyExchangeAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D705A2642CDF93CA00A88966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77704C42CE05328007CCDB3 /* SelectDeliveryMethodVC.swift in Sources */,
+				D782DC132CE1194B004C6A03 /* EnumManager.swift in Sources */,
+				D7C2AD1D2CDFD5AD00C4144A /* CountryListBottomVC.swift in Sources */,
+				D782DC152CE11EA4004C6A03 /* CountryListViewModel.swift in Sources */,
+				D70F79BA2CDFB9FC00A5AC87 /* CountryModel.swift in Sources */,
+				D7B525712CE45A02008DD8EE /* SecurityManager.swift in Sources */,
+				D782DC112CE11402004C6A03 /* APIManagerProtocal.swift in Sources */,
+				D705A2702CDF93CA00A88966 /* MoneyTransferViewController.swift in Sources */,
+				D782DC0A2CE089AC004C6A03 /* HomeViewController.swift in Sources */,
+				D782DC0C2CE0F759004C6A03 /* ErrorMessage.swift in Sources */,
+				D7C2AD202CDFD62D00C4144A /* CountryTableViewCell.swift in Sources */,
+				D7C409692CDFD95B0005DB92 /* CountryListCollectionViewCell.swift in Sources */,
+				D7C4096D2CDFE04E0005DB92 /* AllCountryTableViewCell.swift in Sources */,
+				D705A2762CDF93CA00A88966 /* MoneyExchangeApp.xcdatamodeld in Sources */,
+				D705A26C2CDF93CA00A88966 /* AppDelegate.swift in Sources */,
+				D77F347F2CE276300027D99C /* UIImageView.swift in Sources */,
+				D78FC2532CE05CA100700CB8 /* SelectBankNamesTableViewCell.swift in Sources */,
+				D705A26E2CDF93CA00A88966 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D705A27D2CDF93CC00A88966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D705A2862CDF93CC00A88966 /* MoneyExchangeAppTests.swift in Sources */,
+				D7AF43F62CE392BA00981CBE /* MoneyExchangeAppTestCase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D705A2872CDF93CC00A88966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D705A2922CDF93CC00A88966 /* MoneyExchangeAppUITestsLaunchTests.swift in Sources */,
+				D705A2902CDF93CC00A88966 /* MoneyExchangeAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D705A2832CDF93CC00A88966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D705A2672CDF93CA00A88966 /* MoneyExchangeApp */;
+			targetProxy = D705A2822CDF93CC00A88966 /* PBXContainerItemProxy */;
+		};
+		D705A28D2CDF93CC00A88966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D705A2672CDF93CA00A88966 /* MoneyExchangeApp */;
+			targetProxy = D705A28C2CDF93CC00A88966 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D705A2712CDF93CA00A88966 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D705A2722CDF93CA00A88966 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D705A2792CDF93CC00A88966 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D705A27A2CDF93CC00A88966 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D705A2932CDF93CC00A88966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D705A2942CDF93CC00A88966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D705A2962CDF93CC00A88966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3D97E4864E0657E31A48496 /* Pods-MoneyExchangeApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GL29R5743W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoneyExchangeApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ram.ios.MoneyExchangeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D705A2972CDF93CC00A88966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F0F0DCE61D07A5503D04BBF /* Pods-MoneyExchangeApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GL29R5743W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoneyExchangeApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ram.ios.MoneyExchangeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D705A2992CDF93CC00A88966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C476ABE6F76A90A9599950D /* Pods-MoneyExchangeAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GL29R5743W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ram.ios.MoneyExchangeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyExchangeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoneyExchangeApp";
+			};
+			name = Debug;
+		};
+		D705A29A2CDF93CC00A88966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52073C8E8647C0BFF676EFE1 /* Pods-MoneyExchangeAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GL29R5743W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ram.ios.MoneyExchangeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyExchangeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoneyExchangeApp";
+			};
+			name = Release;
+		};
+		D705A29C2CDF93CC00A88966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3D4AC2781A257B90F516047 /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GL29R5743W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ram.ios.MoneyExchangeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoneyExchangeApp;
+			};
+			name = Debug;
+		};
+		D705A29D2CDF93CC00A88966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 714E6B4FBAF6B6D903D260D7 /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GL29R5743W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ram.ios.MoneyExchangeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoneyExchangeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D705A2632CDF93CA00A88966 /* Build configuration list for PBXProject "MoneyExchangeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D705A2932CDF93CC00A88966 /* Debug */,
+				D705A2942CDF93CC00A88966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D705A2952CDF93CC00A88966 /* Build configuration list for PBXNativeTarget "MoneyExchangeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D705A2962CDF93CC00A88966 /* Debug */,
+				D705A2972CDF93CC00A88966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D705A2982CDF93CC00A88966 /* Build configuration list for PBXNativeTarget "MoneyExchangeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D705A2992CDF93CC00A88966 /* Debug */,
+				D705A29A2CDF93CC00A88966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D705A29B2CDF93CC00A88966 /* Build configuration list for PBXNativeTarget "MoneyExchangeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D705A29C2CDF93CC00A88966 /* Debug */,
+				D705A29D2CDF93CC00A88966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D705A2742CDF93CA00A88966 /* MoneyExchangeApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D705A2752CDF93CA00A88966 /* MoneyExchangeApp.xcdatamodel */,
+			);
+			currentVersion = D705A2752CDF93CA00A88966 /* MoneyExchangeApp.xcdatamodel */;
+			path = MoneyExchangeApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D705A2602CDF93CA00A88966 /* Project object */;
+}

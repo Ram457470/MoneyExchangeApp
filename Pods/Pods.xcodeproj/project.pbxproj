@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2747294D3448DDCFF4A4B9D145AD9837 /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 946051A3E50556ACD71CE35469386DDF /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests-dummy.m */; };
+		6526DAA497A50B48B76E084629CD3018 /* Pods-MoneyExchangeAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF7748F1CD0FECE358DC22FABDB1AC7 /* Pods-MoneyExchangeAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67168A91B7EE663E7BCADAB87EFEC43E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6F75F9997D554831C18FD2C77847E562 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		99D6A6DEE8001CFE165E373DDEC32D1D /* Pods-MoneyExchangeApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEA54A57BBA2F1344B7EBC9BB19994C /* Pods-MoneyExchangeApp-dummy.m */; };
+		D1995BE7745D2AC7A581038F2EED4B18 /* Pods-MoneyExchangeApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01EBE4DA1D66840C2C74742B9931A13B /* Pods-MoneyExchangeApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D209C4DAA2EF3C467ACC911A7995F51D /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96812E3DD950DBB322C4FBE89CF7BF4F /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9EC9E751C8C66BF478A07ED75900BD1 /* Pods-MoneyExchangeAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5F898319566D91FF81540010C9567D /* Pods-MoneyExchangeAppTests-dummy.m */; };
+		EA4276F1AAF36DDFDCA5AE6737DBD6BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1A118660770AD8140E901DE89DC5900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBEB5C9C1E6DF492E5CF003932A61E68;
+			remoteInfo = "Pods-MoneyExchangeApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01EBE4DA1D66840C2C74742B9931A13B /* Pods-MoneyExchangeApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoneyExchangeApp-umbrella.h"; sourceTree = "<group>"; };
+		109C97C2CFB589A986B4D5AE50A0C695 /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoneyExchangeApp-MoneyExchangeAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2352EE18D9F4ABDD7F554A785681B2D1 /* Pods-MoneyExchangeAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoneyExchangeAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2FEA54A57BBA2F1344B7EBC9BB19994C /* Pods-MoneyExchangeApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoneyExchangeApp-dummy.m"; sourceTree = "<group>"; };
+		3381D3274D300527381CA45FB020FCE1 /* Pods-MoneyExchangeAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoneyExchangeAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		384BF9A2BE91367903A75AA26BB5FCE7 /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoneyExchangeApp-MoneyExchangeAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		509FDF667ABCA43A45AD1A4F0AABBC64 /* Pods-MoneyExchangeApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoneyExchangeApp-Info.plist"; sourceTree = "<group>"; };
+		5AF7748F1CD0FECE358DC22FABDB1AC7 /* Pods-MoneyExchangeAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoneyExchangeAppTests-umbrella.h"; sourceTree = "<group>"; };
+		6E7F26FC029DB6F1D4340F53A00C36AC /* Pods-MoneyExchangeApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoneyExchangeApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		72C2460C9FFD1D2146EE7AB12B00CAE3 /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoneyExchangeApp-MoneyExchangeAppUITests-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7F31508969C32DAF277303F0830E71A1 /* Pods-MoneyExchangeAppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MoneyExchangeAppTests"; path = Pods_MoneyExchangeAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86134497354758F873F6569306DC6279 /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoneyExchangeApp-MoneyExchangeAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		867AD6BF38249C625EF6CDE99353D0BC /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MoneyExchangeApp-MoneyExchangeAppUITests"; path = Pods_MoneyExchangeApp_MoneyExchangeAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B472FF3EB6B65190392536BC9D90129 /* Pods-MoneyExchangeApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MoneyExchangeApp"; path = Pods_MoneyExchangeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		946051A3E50556ACD71CE35469386DDF /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoneyExchangeApp-MoneyExchangeAppUITests-dummy.m"; sourceTree = "<group>"; };
+		94FE192614D2ACA5F4A0AB418FC8B42A /* Pods-MoneyExchangeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoneyExchangeAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		96812E3DD950DBB322C4FBE89CF7BF4F /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoneyExchangeApp-MoneyExchangeAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		98DB1B513B1949F8A134ACABCDE02D37 /* Pods-MoneyExchangeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoneyExchangeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9D5F898319566D91FF81540010C9567D /* Pods-MoneyExchangeAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoneyExchangeAppTests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB0E64D36FE58B4046EAADE5E31E290C /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MoneyExchangeApp-MoneyExchangeAppUITests.modulemap"; sourceTree = "<group>"; };
+		C26AC43BE5E8F27ABF7EE422C07E06C3 /* Pods-MoneyExchangeAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MoneyExchangeAppTests.modulemap"; sourceTree = "<group>"; };
+		D051BBE1702CB7D13B13871C7982B703 /* Pods-MoneyExchangeApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoneyExchangeApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		D0ED519C7F904B6DED6B590CCA85C1CC /* Pods-MoneyExchangeApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MoneyExchangeApp.modulemap"; sourceTree = "<group>"; };
+		D5D980C129631C64D1AF3266AD63C816 /* Pods-MoneyExchangeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoneyExchangeApp.release.xcconfig"; sourceTree = "<group>"; };
+		D8158D7E11B336FB84D597E995DEBD69 /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoneyExchangeApp-MoneyExchangeAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DDB05659DB5C6D336FB273283F8D902C /* Pods-MoneyExchangeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoneyExchangeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4B05B19BCC907F65B956FE8D1EA0F39 /* Pods-MoneyExchangeAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoneyExchangeAppTests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C7A63D4CFA67DC15BC52EFF5B177511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4276F1AAF36DDFDCA5AE6737DBD6BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9239238704FEC80EB726B5CED5306D3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F75F9997D554831C18FD2C77847E562 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6A914E8BB9E587F7A5A878BE3BCEA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67168A91B7EE663E7BCADAB87EFEC43E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20860D0B2B3360AF9B123727A84F93FB /* Pods-MoneyExchangeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C26AC43BE5E8F27ABF7EE422C07E06C3 /* Pods-MoneyExchangeAppTests.modulemap */,
+				3381D3274D300527381CA45FB020FCE1 /* Pods-MoneyExchangeAppTests-acknowledgements.markdown */,
+				2352EE18D9F4ABDD7F554A785681B2D1 /* Pods-MoneyExchangeAppTests-acknowledgements.plist */,
+				9D5F898319566D91FF81540010C9567D /* Pods-MoneyExchangeAppTests-dummy.m */,
+				F4B05B19BCC907F65B956FE8D1EA0F39 /* Pods-MoneyExchangeAppTests-Info.plist */,
+				5AF7748F1CD0FECE358DC22FABDB1AC7 /* Pods-MoneyExchangeAppTests-umbrella.h */,
+				DDB05659DB5C6D336FB273283F8D902C /* Pods-MoneyExchangeAppTests.debug.xcconfig */,
+				94FE192614D2ACA5F4A0AB418FC8B42A /* Pods-MoneyExchangeAppTests.release.xcconfig */,
+			);
+			name = "Pods-MoneyExchangeAppTests";
+			path = "Target Support Files/Pods-MoneyExchangeAppTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7D4DCA980B279753A15698D29705E374 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B472FF3EB6B65190392536BC9D90129 /* Pods-MoneyExchangeApp */,
+				867AD6BF38249C625EF6CDE99353D0BC /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests */,
+				7F31508969C32DAF277303F0830E71A1 /* Pods-MoneyExchangeAppTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4BFA96513BE3E88406A5E22667457D1 /* Pods-MoneyExchangeApp */ = {
+			isa = PBXGroup;
+			children = (
+				D0ED519C7F904B6DED6B590CCA85C1CC /* Pods-MoneyExchangeApp.modulemap */,
+				6E7F26FC029DB6F1D4340F53A00C36AC /* Pods-MoneyExchangeApp-acknowledgements.markdown */,
+				D051BBE1702CB7D13B13871C7982B703 /* Pods-MoneyExchangeApp-acknowledgements.plist */,
+				2FEA54A57BBA2F1344B7EBC9BB19994C /* Pods-MoneyExchangeApp-dummy.m */,
+				509FDF667ABCA43A45AD1A4F0AABBC64 /* Pods-MoneyExchangeApp-Info.plist */,
+				01EBE4DA1D66840C2C74742B9931A13B /* Pods-MoneyExchangeApp-umbrella.h */,
+				98DB1B513B1949F8A134ACABCDE02D37 /* Pods-MoneyExchangeApp.debug.xcconfig */,
+				D5D980C129631C64D1AF3266AD63C816 /* Pods-MoneyExchangeApp.release.xcconfig */,
+			);
+			name = "Pods-MoneyExchangeApp";
+			path = "Target Support Files/Pods-MoneyExchangeApp";
+			sourceTree = "<group>";
+		};
+		A8B0BE1D708E9A9664E6198E51FB1AE4 /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB0E64D36FE58B4046EAADE5E31E290C /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests.modulemap */,
+				109C97C2CFB589A986B4D5AE50A0C695 /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests-acknowledgements.markdown */,
+				D8158D7E11B336FB84D597E995DEBD69 /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests-acknowledgements.plist */,
+				946051A3E50556ACD71CE35469386DDF /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests-dummy.m */,
+				72C2460C9FFD1D2146EE7AB12B00CAE3 /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests-Info.plist */,
+				96812E3DD950DBB322C4FBE89CF7BF4F /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests-umbrella.h */,
+				384BF9A2BE91367903A75AA26BB5FCE7 /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests.debug.xcconfig */,
+				86134497354758F873F6569306DC6279 /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests.release.xcconfig */,
+			);
+			name = "Pods-MoneyExchangeApp-MoneyExchangeAppUITests";
+			path = "Target Support Files/Pods-MoneyExchangeApp-MoneyExchangeAppUITests";
+			sourceTree = "<group>";
+		};
+		CD8B2EE277C9D9CB2F7BBB7638D163CD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4BFA96513BE3E88406A5E22667457D1 /* Pods-MoneyExchangeApp */,
+				A8B0BE1D708E9A9664E6198E51FB1AE4 /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests */,
+				20860D0B2B3360AF9B123727A84F93FB /* Pods-MoneyExchangeAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7D4DCA980B279753A15698D29705E374 /* Products */,
+				CD8B2EE277C9D9CB2F7BBB7638D163CD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2866568FC496129015663D61854104B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6526DAA497A50B48B76E084629CD3018 /* Pods-MoneyExchangeAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BFF20489A78100A1897445DD4B825DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D209C4DAA2EF3C467ACC911A7995F51D /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0519014B2680995DF2E7E51D9FA060 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1995BE7745D2AC7A581038F2EED4B18 /* Pods-MoneyExchangeApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6DB79F5E4F98FCB9185F4BB8F45D2F2C /* Pods-MoneyExchangeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE47C3271B3B1ED2C5063E6C641F541 /* Build configuration list for PBXNativeTarget "Pods-MoneyExchangeAppTests" */;
+			buildPhases = (
+				2866568FC496129015663D61854104B8 /* Headers */,
+				473C296C76B3E52025F5B1024E3812AD /* Sources */,
+				1C7A63D4CFA67DC15BC52EFF5B177511 /* Frameworks */,
+				3CFB78069D73ADAAA2D8856FAEDC8F2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED2299B08028BA3DC9C6AC04C4863893 /* PBXTargetDependency */,
+			);
+			name = "Pods-MoneyExchangeAppTests";
+			productName = Pods_MoneyExchangeAppTests;
+			productReference = 7F31508969C32DAF277303F0830E71A1 /* Pods-MoneyExchangeAppTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE406C9F1C23B60D4F9186DDABEB9A0E /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6437A14D796D607C334B73AF3678C62E /* Build configuration list for PBXNativeTarget "Pods-MoneyExchangeApp-MoneyExchangeAppUITests" */;
+			buildPhases = (
+				2BFF20489A78100A1897445DD4B825DD /* Headers */,
+				D23FE270F8A86C41F548FCAF5EE94458 /* Sources */,
+				FD6A914E8BB9E587F7A5A878BE3BCEA9 /* Frameworks */,
+				6B20A3116FFE71ED5D8DAC9CAC2E6773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MoneyExchangeApp-MoneyExchangeAppUITests";
+			productName = Pods_MoneyExchangeApp_MoneyExchangeAppUITests;
+			productReference = 867AD6BF38249C625EF6CDE99353D0BC /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBEB5C9C1E6DF492E5CF003932A61E68 /* Pods-MoneyExchangeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8432D5F1DA2785300A2F4CEBFAA8AC1 /* Build configuration list for PBXNativeTarget "Pods-MoneyExchangeApp" */;
+			buildPhases = (
+				CB0519014B2680995DF2E7E51D9FA060 /* Headers */,
+				CC83B2B927E5EFD80F50DCA34475655C /* Sources */,
+				9239238704FEC80EB726B5CED5306D3C /* Frameworks */,
+				C3C28E7036ECB89A7F48AA30CD573980 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MoneyExchangeApp";
+			productName = Pods_MoneyExchangeApp;
+			productReference = 8B472FF3EB6B65190392536BC9D90129 /* Pods-MoneyExchangeApp */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			productRefGroup = 7D4DCA980B279753A15698D29705E374 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBEB5C9C1E6DF492E5CF003932A61E68 /* Pods-MoneyExchangeApp */,
+				CE406C9F1C23B60D4F9186DDABEB9A0E /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests */,
+				6DB79F5E4F98FCB9185F4BB8F45D2F2C /* Pods-MoneyExchangeAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CFB78069D73ADAAA2D8856FAEDC8F2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B20A3116FFE71ED5D8DAC9CAC2E6773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3C28E7036ECB89A7F48AA30CD573980 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		473C296C76B3E52025F5B1024E3812AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EC9E751C8C66BF478A07ED75900BD1 /* Pods-MoneyExchangeAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC83B2B927E5EFD80F50DCA34475655C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D6A6DEE8001CFE165E373DDEC32D1D /* Pods-MoneyExchangeApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23FE270F8A86C41F548FCAF5EE94458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2747294D3448DDCFF4A4B9D145AD9837 /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED2299B08028BA3DC9C6AC04C4863893 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MoneyExchangeApp";
+			target = FBEB5C9C1E6DF492E5CF003932A61E68 /* Pods-MoneyExchangeApp */;
+			targetProxy = C1A118660770AD8140E901DE89DC5900 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B93AE3E5AF364E495B0C2E6D6D94C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94FE192614D2ACA5F4A0AB418FC8B42A /* Pods-MoneyExchangeAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoneyExchangeAppTests/Pods-MoneyExchangeAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoneyExchangeAppTests/Pods-MoneyExchangeAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		752B4BBE10E3CF0A90DE1CBB0AC71DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 384BF9A2BE91367903A75AA26BB5FCE7 /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoneyExchangeApp-MoneyExchangeAppUITests/Pods-MoneyExchangeApp-MoneyExchangeAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoneyExchangeApp-MoneyExchangeAppUITests/Pods-MoneyExchangeApp-MoneyExchangeAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		82535E5B1A4B2708EBF946AF7B0BD125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98DB1B513B1949F8A134ACABCDE02D37 /* Pods-MoneyExchangeApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoneyExchangeApp/Pods-MoneyExchangeApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoneyExchangeApp/Pods-MoneyExchangeApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		950C4408087E065A102DF2215074BC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86134497354758F873F6569306DC6279 /* Pods-MoneyExchangeApp-MoneyExchangeAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoneyExchangeApp-MoneyExchangeAppUITests/Pods-MoneyExchangeApp-MoneyExchangeAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoneyExchangeApp-MoneyExchangeAppUITests/Pods-MoneyExchangeApp-MoneyExchangeAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6ABE0936962DA6927CD28A881751510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDB05659DB5C6D336FB273283F8D902C /* Pods-MoneyExchangeAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoneyExchangeAppTests/Pods-MoneyExchangeAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoneyExchangeAppTests/Pods-MoneyExchangeAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C84F0D778DDCECF47FB7F0FFA5F6D231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5D980C129631C64D1AF3266AD63C816 /* Pods-MoneyExchangeApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoneyExchangeApp/Pods-MoneyExchangeApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoneyExchangeApp/Pods-MoneyExchangeApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FF6A0D1970CA9705974E3CB2134802 /* Debug */,
+				30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6437A14D796D607C334B73AF3678C62E /* Build configuration list for PBXNativeTarget "Pods-MoneyExchangeApp-MoneyExchangeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				752B4BBE10E3CF0A90DE1CBB0AC71DFE /* Debug */,
+				950C4408087E065A102DF2215074BC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8432D5F1DA2785300A2F4CEBFAA8AC1 /* Build configuration list for PBXNativeTarget "Pods-MoneyExchangeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82535E5B1A4B2708EBF946AF7B0BD125 /* Debug */,
+				C84F0D778DDCECF47FB7F0FFA5F6D231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE47C3271B3B1ED2C5063E6C641F541 /* Build configuration list for PBXNativeTarget "Pods-MoneyExchangeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6ABE0936962DA6927CD28A881751510 /* Debug */,
+				0B93AE3E5AF364E495B0C2E6D6D94C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

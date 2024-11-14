@@ -1,0 +1,6 @@
+framework module Pods_MoneyExchangeApp_MoneyExchangeAppUITests {
+  umbrella header "Pods-MoneyExchangeApp-MoneyExchangeAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

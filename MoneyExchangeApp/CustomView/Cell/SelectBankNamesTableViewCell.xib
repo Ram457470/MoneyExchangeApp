@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SelectBankNamesTableViewCell" rowHeight="121" id="KGk-i7-Jjw" customClass="SelectBankNamesTableViewCell" customModule="MoneyExchangeApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="501" height="121"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="501" height="121"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3ip-R6-DZf">
+                        <rect key="frame" x="0.0" y="0.0" width="501" height="50"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="FMo-P5-B9x">
+                                <rect key="frame" x="20" y="5" width="476" height="40"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ENN-9o-2bN">
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="0tl-kt-LuB"/>
+                                            <constraint firstAttribute="width" constant="30" id="nuP-40-JUm"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gua-2E-Daj">
+                                        <rect key="frame" x="54" y="0.0" width="41.333333333333343" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6M6-lN-Aot">
+                                        <rect key="frame" x="119.33333333333334" y="0.0" width="356.66666666666663" height="50"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="record.circle" catalog="system"/>
+                                        <connections>
+                                            <action selector="selectBankTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="TaG-nP-7qK"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="HZP-Da-sOX"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="FMo-P5-B9x" secondAttribute="trailing" constant="5" id="Xgn-JX-x7l"/>
+                            <constraint firstItem="FMo-P5-B9x" firstAttribute="leading" secondItem="3ip-R6-DZf" secondAttribute="leading" constant="20" id="ej0-Ma-8Nw"/>
+                            <constraint firstAttribute="bottom" secondItem="FMo-P5-B9x" secondAttribute="bottom" constant="5" id="q16-QZ-HJj"/>
+                            <constraint firstItem="FMo-P5-B9x" firstAttribute="top" secondItem="3ip-R6-DZf" secondAttribute="top" constant="5" id="r2k-9S-Axv"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="3ip-R6-DZf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="75v-rH-CFn"/>
+                    <constraint firstAttribute="trailing" secondItem="3ip-R6-DZf" secondAttribute="trailing" id="EEb-XS-AjB"/>
+                    <constraint firstItem="3ip-R6-DZf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="p3n-v2-Con"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="selectBankBtn" destination="6M6-lN-Aot" id="FNM-a4-jay"/>
+                <outlet property="selectBankName" destination="gua-2E-Daj" id="LNx-oU-zRE"/>
+                <outlet property="selectImage" destination="ENN-9o-2bN" id="Ji7-V6-DhI"/>
+                <outlet property="selectView" destination="3ip-R6-DZf" id="FP0-bp-0Cd"/>
+            </connections>
+            <point key="canvasLocation" x="103.84615384615384" y="47.985781990521325"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="record.circle" catalog="system" width="128" height="123"/>
+    </resources>
+</document>
